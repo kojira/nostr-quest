@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  quest:
+    container_name: quest
+    build:
+      context: "./"
+      dockerfile: "./Dockerfile"
+    volumes:
+      - "./:/var/bot/"
+    tty: true
+    working_dir: /var/bot/src
+    command: bash -c "cargo run"
+    restart: always

@@ -1,0 +1,18 @@
+relay_servers:
+  write:
+    - "wss://nostr-relay.nokotaro.com"
+    - "wss://relay-jp.nostr.wirednet.jp"
+    - "wss://relay.nostr.wirednet.jp"
+    - "wss://relay.damus.io"
+    - "wss://yabu.me"
+    - "wss://nos.lol"
+    - "wss://r.kojira.io"
+    - "wss://relay.nostr.band"
+  read:
+    - "wss://r.kojira.io"
+
+bot:
+  admin_pubkeys:
+    - your hex pubkey
+  bot_pubkey: root bot hex pubkey
+  prompt: あなたの名前はxxxちゃん〜中略〜。一人称は「私」。以下は発言のサンプルです。\nごきげんよう。
